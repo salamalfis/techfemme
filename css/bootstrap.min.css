@@ -3248,8 +3248,8 @@ tbody.collapse.show {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
-  background-color: #e9ecef;
-  border: 1px solid #ced4da;
+  background-color: #a39394;
+  border: 1px solid #a49f9e;
   border-radius: 0 0.25rem 0.25rem 0;
 }
 .custom-file-control:lang(en)::before {
