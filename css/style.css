@@ -30,7 +30,7 @@ Copyright © All rights Reserved
 ----------------------*/
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   position: relative;
 }
 
@@ -207,7 +207,7 @@ p.lead {
     font-size: 14px;
   }
   .navbar-nav > .nav-item > .nav-link.active:after {
-    content: "";
+    content: '';
     border-bottom: 2px solid #a39394;
     left: 1rem;
     right: 1rem;
@@ -295,13 +295,13 @@ header {
   .card.features {
     margin-bottom: 2rem;
   }
-  [class^="col-"]:last-child .card.features {
+  [class^='col-']:last-child .card.features {
     margin-bottom: 0;
   }
 }
 
 .card.features:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 3px;
   color: #fc73b4;
@@ -438,6 +438,7 @@ header {
 .owl-carousel .owl-item img.client-img {
   width: 250px;
   height: 250px;
+  object-fit: cover;
   margin: 30px auto;
   border-radius: 10%;
   box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
